@@ -36,3 +36,7 @@ Would generate this output
 ## Requirements
 
 The role or user running the `load` function must have a policy allowing `secretsmanager:GetSecretValue` to the specified secret in `secretId`
+
+## Warning
+
+AWS Secrets Manager is not free (https://aws.amazon.com/secrets-manager/pricing/), each call to `load` means an API call, so don't overdo it. You should think of a caching strategy to avoid any problems on frequent workloads.
