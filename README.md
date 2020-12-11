@@ -17,7 +17,7 @@ Then this code
 
 ```javascript
 (async () => {
-    await require('secret-manager-loader').load({
+    await require('secrets-manager-loader').load({
         secretId: 'prod/myawesomesecret/module'
     });
     console.log(process.env);
