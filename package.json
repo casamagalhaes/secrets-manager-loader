@@ -1,5 +1,5 @@
 {
-  "name": "secret-manager-loader",
+  "name": "secrets-manager-loader",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
