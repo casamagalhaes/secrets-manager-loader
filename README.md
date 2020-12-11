@@ -1,6 +1,6 @@
-# Secret Manager Loader
+# Secrets Manager Loader
 
-Retrieves, parses and loads secrets from AWS Secret Manager directly to process.env
+Retrieves, parses and loads secrets from AWS Secrets Manager directly to process.env
 
 ## Example
 
