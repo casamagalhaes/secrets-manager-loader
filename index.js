@@ -77,6 +77,9 @@ const load = async ({
             const decodedBinarySecret = buff.toString('ascii');
             process.env[SMLOADER_BINARY_SECRET_DEFAULT_KEY] = decodedBinarySecret;
         }
+        if (SMLOADER_DEBUG) {
+            console.log('SM Loader finished successfully');
+        }
     } catch (error) {
         return finish(error);
     }
